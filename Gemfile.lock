@@ -77,7 +77,6 @@ GEM
       thor (>= 0.14.6, < 2.0)
     rake (10.1.0)
     rdoc (3.12.2)
-      json (~> 1.4)
     sass (3.2.12)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -97,7 +96,6 @@ GEM
     tzinfo (0.3.38)
     uglifier (2.3.2)
       execjs (>= 0.3.0)
-      json (>= 1.8.0)
 
 PLATFORMS
   ruby
