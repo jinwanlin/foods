@@ -28,7 +28,7 @@ gem 'jquery-rails'
 gem "json", "~> 1.8.1"
 
 group :production do 
-  gem 'mysql2', :git => 'git@github.com:brianmario/mysql2.git'
+  gem 'mysql2'#, :git => 'git@github.com:brianmario/mysql2.git'
 end
 
 # To use ActiveModel has_secure_password
