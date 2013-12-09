@@ -9,7 +9,7 @@ gem "therubyracer", :require => 'v8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem "eventmachine",  :git => 'git@github.com:eventmachine/eventmachine.git'
+gem "eventmachine"#,  :git => 'git@github.com:eventmachine/eventmachine.git'
 
 
 # Gems used only for assets and not required

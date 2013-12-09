@@ -4,12 +4,6 @@ GIT
   specs:
     mysql2 (0.3.14)
 
-GIT
-  remote: git@github.com:eventmachine/eventmachine.git
-  revision: cfb1f71a35b1a10e5821bca9841fee3080ec1685
-  specs:
-    eventmachine (1.0.3)
-
 GEM
   remote: http://ruby.taobao.org/
   specs:
@@ -50,6 +44,7 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     erubis (2.7.0)
+    eventmachine (1.0.3)
     execjs (2.0.2)
     hike (1.2.3)
     i18n (0.6.9)
@@ -119,7 +114,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  eventmachine!
+  eventmachine
   jquery-rails
   json (~> 1.8.1)
   mysql2!
