@@ -30,18 +30,3 @@ gem "json", "~> 1.8.1"
 group :production do 
   gem 'mysql2'#, :git => 'git@github.com:brianmario/mysql2.git'
 end
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
