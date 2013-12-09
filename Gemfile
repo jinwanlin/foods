@@ -1,5 +1,5 @@
-#source 'http://ruby.taobao.org/'
-source 'http://rubygems.org'
+source 'http://ruby.taobao.org/'
+#source 'http://rubygems.org'
 
 
 gem 'rails', '3.2.12'
@@ -9,6 +9,7 @@ gem "therubyracer", :require => 'v8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem "eventmachine",  :git => 'git@github.com:eventmachine/eventmachine.git'
 
 
 # Gems used only for assets and not required
@@ -25,6 +26,11 @@ end
 
 gem 'jquery-rails'
 gem "json", "~> 1.8.1"
+
+group :production do 
+  gem 'mysql2', :git => 'git@github.com:brianmario/mysql2.git'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

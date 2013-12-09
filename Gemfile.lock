@@ -1,5 +1,17 @@
+GIT
+  remote: git@github.com:brianmario/mysql2.git
+  revision: a9787cbb88f18d12f0b5c370c519d077ad68c862
+  specs:
+    mysql2 (0.3.14)
+
+GIT
+  remote: git@github.com:eventmachine/eventmachine.git
+  revision: cfb1f71a35b1a10e5821bca9841fee3080ec1685
+  specs:
+    eventmachine (1.0.3)
+
 GEM
-  remote: http://rubygems.org/
+  remote: http://ruby.taobao.org/
   specs:
     actionmailer (3.2.12)
       actionpack (= 3.2.12)
@@ -107,8 +119,10 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  eventmachine!
   jquery-rails
   json (~> 1.8.1)
+  mysql2!
   rails (= 3.2.12)
   sass-rails (~> 3.2.3)
   sqlite3
