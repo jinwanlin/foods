@@ -12,3 +12,8 @@ Migrating to CreateUsers (20131208123046)
   [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20131208123046')[0m
   [1m[35m (1.6ms)[0m  commit transaction
   [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-12-09 18:54:16 +0800
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (5ms)
