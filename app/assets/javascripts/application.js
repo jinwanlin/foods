@@ -15,5 +15,5 @@
 //= require_tree .
 
 $(function(){
-	alert(2)
+	alert("jin")
 })
